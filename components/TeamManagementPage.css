@@ -1,0 +1,196 @@
+.d-flex { display: flex; }
+.vh-100 { height: 100vh; width: 100vw; overflow: hidden; }
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #F9FAFB;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #F9FAFB;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 240px;
+    background: #ffffff;
+    padding: 1.25rem;
+    border-right: 1px solid #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.sidebar h1 {
+    color: #111322;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.nav-item {
+    margin-bottom: 0.5rem !important;
+}
+
+.nav-link {
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    margin-bottom: 0.25rem;
+    color: #667085;
+    font-size: 0.95rem;
+}
+
+.nav-link:hover {
+    background: #F9FAFB;
+    color: #111322;
+}
+
+.nav-link.active {
+    background: #F9FAFB;
+    color: #111322 !important;
+    font-weight: 500;
+}
+
+/* User Info */
+.user-info {
+    border-color: #E5E7EB !important;
+    padding-top: 1.5rem;
+}
+
+.user-info p {
+    margin-bottom: 0.25rem;
+    color: #667085;
+    font-size: 1rem;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #E5E7EB;
+    transition: all 0.2s ease;
+    color: #667085;
+    font-size: 1rem;
+}
+
+.btn-outline-secondary:hover {
+    background: #F9FAFB;
+    border-color: #D0D5DD;
+    color: #111322;
+}
+
+/* Main Content */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Search Bar */
+.position-relative {
+    position: relative;
+}
+
+.form-control {
+    padding: 0.75rem 3rem;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.form-control:focus {
+    border-color: #98A2B3;
+    box-shadow: 0 0 0 4px rgba(152, 162, 179, 0.1);
+    outline: none;
+}
+
+/* Team Cards */
+.card {
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    background: rgb(236, 234, 234);
+    font-size: 1.1rem;
+    border: 5px solid #121111;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.rounded-circle {
+    width: 52px;
+    height: 52px;
+    background-color: #d0d4d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #344054;
+    border-radius: 50%;
+}
+
+.shadow-sm {
+    box-shadow: 0 3px 3px rgba(16, 24, 40, 0.05) !important;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(8, 10, 16, 0.1) !important;
+}
+
+.rounded-circle {
+    width: 48px;
+    height: 48px;
+    background-color: #F2F4F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #344054;
+    border-radius: 50%;
+}
+
+/* Add Member Card */
+.border-dashed {
+    border: 2px dashed #98A2B3 !important;
+    background:rgb(236, 234, 234);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    color: #667085;
+}
+
+.border-dashed:hover {
+    border-color: #344054 !important;
+    background: #EAECF0;
+    color: #101828;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(8, 10, 16, 0.1);
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #111322;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.btn-dark:hover {
+    background-color: #1D2235;
+    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.1), 0 1px 2px rgba(16, 24, 40, 0.06);
+}
